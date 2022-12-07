@@ -2,7 +2,7 @@ function getMaxGifts(giftsCities, maxGifts, maxCities) {
     return (() =>
     Math.max(
       ...giftsCities
-      .sort((x, y) => x - y)
+      .sort((a, b) => b - a)
       .reduce((total, i) => (
             i && giftsCities.unshift(giftsCities.pop()),
             (i = giftsCities
