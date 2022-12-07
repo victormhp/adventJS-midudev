@@ -1,14 +1,14 @@
 function createCube(size) {
-    let cube = ''
+    const top = []
+    const bottom = []
 
     for (let i = 1; i <= size; i++) {
-      cube += ' '.repeat(size - i) + '/\\'.repeat(i) + '_\\'.repeat(size) + '\n'
+        top.push(`${' '.repeat(size - i) + '/\\'.repeat(i) + '_\\'.repeat(size)}`)
+        bottom.push(`${' '.repeat(i - 1) + '\\/'.repeat(size - i + 1) + '_/'.repeat(size)}`)
     }
 
-    for (let i = 1; i <= size; i++) {
-      cube += ' '.repeat(i - 1) + '\\/'.repeat(size - i + 1) + '_/'.repeat(size) + '\n'
-    }
 
-    return cube.trimEnd()
+    return [...top, ...bottom].join('\n')
 }
 
+console.log(createCube(5))
