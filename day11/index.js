@@ -21,5 +21,3 @@ function getCompleted(part, total) {
   
     return `${partInSeconds /= divisor}/${totalInSeconds /= divisor}`
 }
-
-console.log(5 % 25)
