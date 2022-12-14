@@ -8,13 +8,13 @@ function getCompleted(part, total) {
     const gcd = (a, b) => {
       let remainder;
   
-      while (a % b !== 0) {
+      while (b) {
         remainder = a % b
         a = b
         b = remainder
       }
   
-      return b
+      return a
     }
   
     const divisor = gcd(partInSeconds, totalInSeconds)
