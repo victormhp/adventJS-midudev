@@ -65,7 +65,7 @@ function decorateTree(base) {
     return [...Array(tree.length - 1)]
         .reduce(createLevel, [tree])
         .reverse()
-        .map(decorations => decorations.join(' '))
+        .map(e => e.join(' '))
 }
 
 console.log(decorateTree('B P R P'))
