@@ -5,5 +5,3 @@ function getOptimalPath(path) {
         })
     })[0]
 }
-
-console.log(getOptimalPath([[1], [1, 5], [7, 5, 8], [9, 4, 1, 3]]))
