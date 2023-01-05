@@ -34,5 +34,5 @@ Mis soluciones al Advent JS 2022, una iniciativa de [@midudev](https://midu.dev/
 | 20  |               [Más viajes retadores](/day20)               | [Código](/day20/index.js) |
 | 21  |           [Creando la tabla de regalos](/day21)            | [Código](/day21/index.js) |
 | 22  |            [La iluminación en sintonía](/day22)            | [Código](/day22/index.js) |
-| 22  |             [Compilador de Papá Noel](/day23)              | [Código](/day23/index.js) |
-| 22  |        [El último es un reto de laberinto](/day24)         | [Código](/day24/index.js) |
+| 23  |             [Compilador de Papá Noel](/day23)              | [Código](/day23/index.js) |
+| 24  |        [El último es un reto de laberinto](/day24)         | [Código](/day24/index.js) |
