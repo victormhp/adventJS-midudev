@@ -27,7 +27,7 @@ B P R P
 Escribe un programa que reciba el string B P R P y devuelva un array con la representación del árbol.
 
 ```js
-decorateTree("B P R P");
+decorateTree('B P R P');
 // [
 // 'R',
 // 'P B',
@@ -35,7 +35,7 @@ decorateTree("B P R P");
 // 'B P R P'
 // ]
 
-decorateTree("B B"); // ['B', 'B B']
+decorateTree('B B'); // ['B', 'B B']
 ```
 
 Ten en cuenta que:

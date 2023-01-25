@@ -11,8 +11,8 @@ Una caja entra en otra caja si todos los lados de la primera son menores a los l
 ```js
 fitsInOneBox([
   { l: 1, w: 1, h: 1 },
-  { l: 2, w: 2, h: 2 }
-]) // true
+  { l: 2, w: 2, h: 2 },
+]); // true
 ```
 
 En el ejemplo anterior, la caja más pequeña entra en la caja más grande. Por lo tanto, es posible empaquetar todas las cajas en una sola. Ahora veamos un caso que no:
@@ -21,10 +21,10 @@ En el ejemplo anterior, la caja más pequeña entra en la caja más grande. Por 
 const boxes = [
   { l: 1, w: 1, h: 1 },
   { l: 2, w: 2, h: 2 },
-  { l: 3, w: 1, h: 3 }
-]
+  { l: 3, w: 1, h: 3 },
+];
 
-fitsInOneBox(boxes) // false
+fitsInOneBox(boxes); // false
 ```
 
 En el ejemplo anterior, la caja más pequeña entra en la caja del medio, pero la caja del medio no entra en la caja más grande. Por lo tanto, no es posible empaquetar todas las cajas en una sola.
@@ -35,16 +35,16 @@ Ten en cuenta que las cajas pueden no venir en orden:
 const boxes = [
   { l: 1, w: 1, h: 1 },
   { l: 3, w: 3, h: 3 },
-  { l: 2, w: 2, h: 2 }
-]
+  { l: 2, w: 2, h: 2 },
+];
 
-fitsInOneBox(boxes) // true
+fitsInOneBox(boxes); // true
 ```
 
 En el ejemplo anterior, la primer caja cabe en la tercera, y la tercera en la segunda. Por lo tanto, es posible empaquetar todas las cajas en una sola.
 
 **Cosas a tener en cuenta:**
 
- - Las cajas no se pueden rotar ya que los elfos nos han dicho que la máquina no está preparada.
- - Las cajas pueden venir desordenadas de tamaño.
- - Las cajas no son siempre cuadradas, pueden ser rectangulares.
+- Las cajas no se pueden rotar ya que los elfos nos han dicho que la máquina no está preparada.
+- Las cajas pueden venir desordenadas de tamaño.
+- Las cajas no son siempre cuadradas, pueden ser rectangulares.

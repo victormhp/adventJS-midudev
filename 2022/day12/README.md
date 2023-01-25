@@ -11,10 +11,10 @@ Crea un programa que nos devuelva el nombre del mejor trineo disponible que nos 
 ```js
 const distance = 30;
 const sleighs = [
-  { name: "Dasher", consumption: 0.3 },
-  { name: "Dancer", consumption: 0.5 },
-  { name: "Rudolph", consumption: 0.7 },
-  { name: "Midu", consumption: 1 },
+  { name: 'Dasher', consumption: 0.3 },
+  { name: 'Dancer', consumption: 0.5 },
+  { name: 'Rudolph', consumption: 0.7 },
+  { name: 'Midu', consumption: 1 },
 ];
 
 selectSleigh(distance, sleighs); // => "Dancer"

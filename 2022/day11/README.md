@@ -9,12 +9,12 @@ Pero Papa Noél no se entera rápidamente si falta o mucho para que termine, as�
 Por ejemplo, si la tarea dura 03:00:00 y llevan trabajando 01:00:00 entonces ya han completado 1/3 de la tarea. En código:
 
 ```js
-getCompleted("01:00:00", "03:00:00"); // '1/3'
-getCompleted("02:00:00", "04:00:00"); // '1/2'
-getCompleted("01:00:00", "01:00:00"); // '1/1'
-getCompleted("00:10:00", "01:00:00"); // '1/6'
-getCompleted("01:10:10", "03:30:30"); // '1/3'
-getCompleted("03:30:30", "05:50:50"); // '3/5'
+getCompleted('01:00:00', '03:00:00'); // '1/3'
+getCompleted('02:00:00', '04:00:00'); // '1/2'
+getCompleted('01:00:00', '01:00:00'); // '1/1'
+getCompleted('00:10:00', '01:00:00'); // '1/6'
+getCompleted('01:10:10', '03:30:30'); // '1/3'
+getCompleted('03:30:30', '05:50:50'); // '3/5'
 ```
 
 **A tener en cuenta**

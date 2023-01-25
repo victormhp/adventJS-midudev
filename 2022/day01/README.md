@@ -7,10 +7,10 @@ A la máquina se le pasa un array con los regalos. Cada regalo es un string. Nec
 El papel de regalo es el símbolo `*` y para envolver un regalo se coloca el símbolo `*` de forma que rodee totalmente al string por todos los lados. Por ejemplo:
 
 ```js
-const gifts = ['book', 'game', 'socks']
-const wrapped = wrapping(gifts)
+const gifts = ['book', 'game', 'socks'];
+const wrapped = wrapping(gifts);
 
-console.log(wrapped)
+console.log(wrapped);
 /* [
      "******\n*book*\n******",
      "******\n*game*\n******",
@@ -22,6 +22,6 @@ Como ves, el papel de regalo envuelve el string. Por arriba y por abajo, para no
 
 **Nota:** El carácter `\n` representa un salto de línea.
 
-**¡Ojo!** Asegúrate que pones el número correcto de * para envolver completamente el string.
+**¡Ojo!** Asegúrate que pones el número correcto de \* para envolver completamente el string.
 
 ¡Suerte!

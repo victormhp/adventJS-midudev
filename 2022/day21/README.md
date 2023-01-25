@@ -6,9 +6,9 @@ Para ello nos dan un array de objetos con los nombres de los regalos y sus canti
 
 ```js
 printTable([
-	{ name: 'Game', quantity: 2 },
-	{ name: 'Bike', quantity: 1 },
-	{ name: 'Book', quantity: 3 },
+  { name: 'Game', quantity: 2 },
+  { name: 'Bike', quantity: 1 },
+  { name: 'Book', quantity: 3 },
 ]);
 ```
 
@@ -26,8 +26,8 @@ Otro ejemplo donde se puede ver que la tabla siempre usa sólo el espacio justo 
 
 ```js
 printTable([
-	{ name: 'PlayStation 5', quantity: 9234782374892 },
-	{ name: 'Book Learn Web Dev', quantity: 23531 },
+  { name: 'PlayStation 5', quantity: 9234782374892 },
+  { name: 'Book Learn Web Dev', quantity: 23531 },
 ]);
 ```
 
