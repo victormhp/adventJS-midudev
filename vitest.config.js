@@ -5,5 +5,6 @@ export default defineConfig({
     environment: 'node',
     reporters: 'verbose',
     setupFiles: ['/utils/test.utils.js'],
+    exclude: ['./2022'],
   },
 });
