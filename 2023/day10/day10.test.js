@@ -14,7 +14,7 @@ describe('Reto #10: Crea tu propio arbol de navidad', () => {
       'should return a tree with the corresponding ornaments and trunk',
     ),
     createTestCase(
-      ["123", 5],
+      ['123', 5],
       '    1\n   2 3\n  1 2 3\n 1 2 3 1\n2 3 1 2 3\n    |\n',
       'should return a tree with the corresponding ornaments and trunk',
     ),
