@@ -40,22 +40,22 @@ function transformTree(tree) {
   //   i++;
   // }
   // return root;
-  
-  const createTree = (index) => {
+
+  const createTree = index => {
     if (index >= tree.length || tree[index] === null) {
-      return null
+      return null;
     }
 
     const node = {
       value: tree[index],
       left: createTree(index * 2 + 1),
       right: createTree(index * 2 + 2),
-    }
+    };
 
-    return node
-  }
+    return node;
+  };
 
-  return createTree(0)
+  return createTree(0);
 }
 
 export { transformTree };
